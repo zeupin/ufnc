@@ -29,6 +29,7 @@
             .ufnc-icon
             .ufnc-h3
             .ufnc-h4
+            .ufnc-text
         .ufnc-box
         .ufnc-box
         .ufnc-box

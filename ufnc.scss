@@ -1,0 +1,88 @@
+.ufnc,
+.ufnc-row,
+.ufnc-box {
+  box-sizing: border-box;
+}
+
+.ufnc {
+  text-align: center;
+}
+
+.ufnc-row {
+  text-align: center;
+}
+
+.ufnc-box {
+  display: inline-block;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  margin-top: 1rem;
+  padding: 1rem 0;
+  vertical-align: top;
+}
+
+.ufnc-row.cols-3 > .ufnc-box {
+  width: 31.5%;
+}
+.ufnc-row.cols-4 > .ufnc-box {
+  width: 23.5%;
+}
+.ufnc-row.cols-5 > .ufnc-box {
+  width: 18.2%;
+}
+.ufnc-row.border > .ufnc-box {
+  border: 1px solid #ddd;
+}
+
+.ufnc-h1,
+.ufnc-h2,
+.ufnc-h3,
+.ufnc-h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.ufnc-h1 {
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: #666;
+}
+
+.ufnc-h2 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #aaa;
+  margin: 0.5rem 0;
+}
+
+.ufnc-h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding: 1rem 0 1rem 0;
+  color: #444;
+}
+
+.ufnc-h4 {
+  font-weight: bold;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  color: #bbb;
+}
+
+.ufnc-text {
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  color: #bbb;
+}
+
+.ufnc-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
